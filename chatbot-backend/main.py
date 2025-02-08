@@ -5,8 +5,7 @@ import psycopg2
 
 app = FastAPI()
 
-openai.api_key = "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"
-
+openai.api_key = {openai}
 # Database Connection (PostgreSQL)
 conn = psycopg2.connect(database="chatbot_db", user="user", password="password", host="localhost")
 cursor = conn.cursor()
