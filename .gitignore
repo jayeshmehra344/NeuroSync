@@ -1,3 +1,7 @@
-node_modules/
-dist/
-.env
+
+
+# Ignore Node.js dependencies
+chatbot-frontend/node_modules/
+chatbot-frontend/.next/
+chatbot-frontend/.env
+>>>>>>> 8ed294d (major changes)
